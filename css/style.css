@@ -1,0 +1,452 @@
+
+/* Общие стили для body */
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Общие стили для .page .wrapper .header */
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.page-dark {
+  background-color: #212121;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 26px;
+  padding-top: 46px;
+}
+
+/* Навигационное меню /begin-code */
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.nav-item {
+  margin-right: 52px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-info .nav-item {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.nav-bar {
+  position: absolute;
+  background-color: #D7B399;
+  top: 0;
+  right: 100%;
+  height: 100vh;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  transition: position 2.9s;
+  -webkit-transition: position 2.9s;
+  -moz-transition: position 2.9s;
+  -ms-transition: position 2.9s;
+  -o-transition: position 2.9s;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* Навигационное меню /end-code */
+
+
+/* Карточки покупок /begin-code */
+.cart {
+  background-image: url(../img/cart.svg);
+  padding-left: 45px;
+  padding-right: 0;
+  display: block;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.cart:focus {
+  outline: none;
+}
+
+.cart-count {
+  background-image: url(../img/cart-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 17px 10px 23px;
+  display: block;
+}
+/* Карточки покупок /end-code */
+
+
+.title-h2 {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+/* Стили для кнопок /begin-code*/
+.btn {
+  background-color: #D7B399;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+}
+
+.btn-xs {
+  padding: 5px 28px;
+}
+
+.btn-center {
+  display: block;
+  text-align: center;
+  max-width: 210px;
+  margin: 0 auto;
+}
+
+.btn-center span {
+  margin-right: 15px;
+}
+/* Стили для кнопок /end-code*/
+
+/* Раздел "Зимняя распродажа" /begin-code */
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.main .sale-description {
+  font-size: 30px;
+  letter-spacing: -0.6px;
+}
+
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.box {
+  position: relative;
+}
+
+/* Цены */
+.box-price {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  text-align: right;
+}
+
+/* Старая цена */
+.box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+/* Новая цена */
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
+  margin-top: 17px;
+}
+
+/* Изображение кроссовка на главном банере сайта */
+.box-image {
+  width: 100%;
+  max-width: 556px;
+}
+/* Раздел "Зимняя распродажа" /end-code */
+
+/* Раздел "Бесплатная доставка" /begin-code */
+.notice {
+  text-align: center;
+  color: #ffffff;
+  padding: 64px 0 54px;
+}
+
+.notice-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.notice-title span {
+  font-weight: 700;
+}
+
+.notice-description {
+  font-size: 21px;
+}
+/* Раздел "Бесплатная доставка" /end-code */
+
+/* Раздел "Мужская и женская коллекция" /begin-code */
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding: 43px 0 63px;
+  background-size: 190px 171px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 37px) bottom;
+}
+
+.collection-man {
+  background-image: url("../img/man.jpg");
+}
+
+.collection-woman {
+  background-image: url("../img/woman.jpg");
+}
+
+/* Заголовок раздела */
+.collection-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.collection-title span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* Описание */
+.collection-description {
+  font-size: 16px;
+  margin-bottom: 43px;
+}
+/* Раздел "Мужская и женская коллекция" /end-code */
+
+/* Раздел "Новые модели" /begin-code */
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.product-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 24%;
+          flex: 0 0 24%;
+  position: relative;
+}
+
+.product-item:before, .product-item:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-item:before {
+  background-image: url("../img/item-top.svg");
+}
+
+.product-item:after {
+  background-image: url("../img/item-bottom.svg");
+}
+
+/* Заголовок */
+.product-title {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Цена */
+.product-price {
+  color: #D7B399;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* Раздел "Новые модели" /end-code */
+
+/* Подвал сайта /begin-code */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+/* Логотип сайта в футоре сайта */
+.footer-logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+/* Навигационня панель футера */
+.footer-nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #ffffff;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-list-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+}
+
+.footer-list-item img {
+  padding-right: 10px;
+}
+
+.footer-list-link {
+  color: #CBCFD4;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.footer-bottom-link {
+  color: #212121;
+  text-decoration: none;
+}
+/* Подвал сайта /end-code */
+
+.toggle {
+  left: 0;
+  z-index: 10;
+}
+
+/* Навигационное меню мобильной версии сайта /begin-code */
+.toggle-menu {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.nav-list-item {
+  text-align: center;
+  padding: 20px 0;
+}
+/* Навигационное меню мобильной версии сайта /end-code */

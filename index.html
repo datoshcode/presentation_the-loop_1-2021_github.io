@@ -1,0 +1,302 @@
+<!-- 
+Сайт свёрстан по макету "The Loop";
+Автор вёрстки: Андрей Овчаров;
+Дата вёрстки: 12.01.2021;
+E-mail: datoshcode@gmail.com.
+Все авторские права на графический макет, принадлежат его автору. 
+Сайт сверстан с ознакомительной целью, без получения коммерческой выгоды.
+-->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Loop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- ================ Шапка сайта ==================== /begin-code -->
+    <div class="page-light">
+      <div class="wrapper">
+        <header class="header">
+          <!-- Навигационная панель (левая часть)    /begin-code-->
+          <nav>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Для мужчин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Для женщин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Для детей</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Навигационная панель (левая часть)    /end-code-->
+
+          <!-- Логотип шапки сайта -->
+          <img class="header-logo" src="img/logo.svg" alt="Логотип" />
+
+          <!-- Навигационная панель (правая часть)    /begin-code-->
+          <ul class="nav nav-info">
+            <li class="nav-item"><a class="nav-link" href="#">Оплата</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Доставка</a></li>
+          </ul>
+          <!-- Навигационная панель (правая часть)    /end-code-->
+
+          <!-- Иконка карточек покупок -->
+          <button class="cart">
+            <span class="cart-count">5</span>
+          </button>
+
+          <!-- Иконка навигационного меню для мобильной версии -->
+          <div class="toggle-menu">
+            <img src="img/menu-icon.svg" alt="Меню" />
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- ================ Шапка сайта ===================== /end-code -->
+
+    <!-- ===== Раздел стайта "Зимняя распродажа" ========== /begin-code -->
+    <div class="page page-light">
+      <div class="wrapper">
+        <div class="main">
+          <div class="main-item sale">
+            <p class="sale-description">Зимняя распродажа</p>
+            <h1 class="sale-title">СКИДКИ ДО 90%</h1>
+            <a class="btn" href="#">Смотреть модели</a>
+          </div>
+          <div class="main-item box">
+            <div class="box-price">
+              <p class="box-price-old">9 900 ₽</p>
+              <p class="box-price-new">1 900 ₽</p>
+            </div>
+            <img class="box-image" src="img/shoes.png" alt="Кроссовок" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===== Раздел стайта "Зимняя распродажа" ========== /end-code -->
+
+    <!-- ===== Раздел стайта "Бесплатная доставка" ========== /begin-code -->
+    <div class="page page-dark notice">
+      <div class="wrapper">
+        <h1 class="notice-title"><span>Бесплатная доставка</span> от 3000₽</h1>
+        <p class="notice-description">Сделайте заказ и получите подарок!</p>
+      </div>
+    </div>
+    <!-- ===== Раздел стайта "Бесплатная доставка" ========== /end-code -->
+
+    <!-- == Раздел стайта "Мужская и женская коллекция" ==== /begin-code -->
+    <div class="page-light">
+      <div class="wrapper">
+        <div class="collection">
+          <div class="collection-item collection-man">
+            <h2 class="collection-title"><span>Мужская</span> коллекция</h2>
+            <p class="collection-description">Обувь, полуверы, костюмы</p>
+            <a href="#" class="btn btn-xs"
+              ><img src="img/arrow.svg" alt="Стрелка"
+            /></a>
+          </div>
+          <div class="collection-item collection-woman">
+            <h2 class="collection-title"><span>Женская</span> коллекция</h2>
+            <p class="collection-description">Обувь, полуверы, костюмы</p>
+            <a href="#" class="btn btn-xs"
+              ><img src="img/arrow.svg" alt="Стрелка"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- == Раздел стайта "Мужская и женская коллекция" ==== /end-code -->
+
+    <!-- == Раздел стайта "Новые модели" ==== /begin-code -->
+    <div class="page">
+      <div class="wrapper">
+        <h2 class="title-h2">Новые модели</h2>
+        <div class="product">
+          <!-- Модель №1 -->
+          <div class="product-item">
+            <img src="img/product01.jpg" alt="Платье" />
+            <p class="product-title">Коктейльное <br />платье</p>
+            <p class="product-price">₽ 40 000</p>
+          </div>
+
+          <!-- Модель №2 -->
+          <div class="product-item">
+            <img src="img/product02.jpg" alt="Футболка" />
+            <p class="product-title">Футболка <br />черная</p>
+            <p class="product-price">₽ 10 000</p>
+          </div>
+
+          <!-- Модель №3 -->
+          <div class="product-item">
+            <img src="img/product01.jpg" alt="Платье" />
+            <p class="product-title">Коктейльное <br />платье</p>
+            <p class="product-price">₽ 40 000</p>
+          </div>
+
+          <!-- Модель №4 -->
+          <div class="product-item">
+            <img src="img/product02.jpg" alt="Футболка" />
+            <p class="product-title">Футболка <br />черная</p>
+            <p class="product-price">₽ 10 000</p>
+          </div>
+        </div>
+        <a class="btn btn-center" href="#"
+          ><span>Все модели</span><img src="img/arrow.svg" alt="Стрелка"
+        /></a>
+      </div>
+    </div>
+    <!-- == Раздел стайта "Новые модели" ================ /end-code -->
+
+    <!-- == Подвал сайта ============================== /begin-code -->
+    <div class="page-dark">
+      <div class="wrapper">
+        <footer class="footer">
+          <div class="footer-logo">
+            <img src="img/logo-footer.svg" alt="Логотип" />
+          </div>
+
+          <!-- Навигационное меню подвала -->
+          <div class="footer-nav">
+            <!-- Раздел "Основные ссылки" -->
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">
+                Основные ссылки
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">О компании</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Каталог</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Доставка</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Оплата</a>
+              </li>
+            </ul>
+
+            <!-- Раздел "Категории" -->
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">Категории</li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Мужская одежда</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Женская одежда</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Детская одежда</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Дл животных</a>
+              </li>
+            </ul>
+
+            <!-- Раздел "Полезные ссылки" -->
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">
+                Полезный ссылки
+              </li>
+
+              <li class="footer-list-item"></li>
+              <a class="footer-list-link" href="#">Таблица резмеров</a>
+              <li class="footer-list-item"></li>
+              <a class="footer-list-link" href="#">Блог о моде</a>
+              <li class="footer-list-item"></li>
+              <a class="footer-list-link" href="#">Наша миссия</a>
+            </ul>
+
+            <!-- Раздел "Соцсети" -->
+            <ul class="footer-list">
+              <li class="footer-list-item footer-list-title">Соцсети</li>
+
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#"
+                  ><img src="img/vk.svg" alt="Вконтакте" />VK.com</a
+                >
+              </li>
+
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#"
+                  ><img src="img/facebook.svg" alt="Facebook" />Facebook</a
+                >
+              </li>
+
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#"
+                  ><img src="img/instagram.svg" alt="Instagram" />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- Авторское право -->
+    <div class="wrapper">
+      <div class="footer-bottom">
+        <p class="footer-bottom-copyright">
+          Copyright &copy; 2021. Все права защищены.
+        </p>
+        <a href="#" class="footer-bottom-link">Политика приватности</a>
+        <ul>
+          <li>Сайт свёрстан по макету "The Loop";</li>
+          <li>Автор вёрстки: Андрей Овчаров;</li>
+          <li>Дата вёрстки: 12.01.2021;</li>
+          <li>E-mail: datoshcode@gmail.com.</li>
+          <li>
+            Все авторские права на графический макет принадлежат его автору.
+          </li>
+          <li>
+            Сайт сверстан с ознакомительной целью, без получения коммерческой
+            выгоды.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- == Подвал сайта ============================== /end-code -->
+
+    <!-- == Навигационное меню для мобильной версии ===== /begin-code -->
+    <div class="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="#" class="nav-link">Для мужчин</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#" class="nav-link">Для женщин</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#" class="nav-link">Для детей</a>
+        </li>
+        <li class="nav-list-item"><a href="#" class="nav-link">Оплата</a></li>
+        <li class="nav-list-item"><a href="#" class="nav-link">Доставка</a></li>
+      </ul>
+    </div>
+    <!-- == Навигационное меню для мобильной версии ===== /end-code -->
+
+    <!-- Скрипт запуска навигационного меню для мобильной версии -->
+    <script>
+      var toggleButton = document.querySelector(".toggle-menu");
+      var navBar = document.querySelector(".nav-bar");
+      toggleButton.addEventListener("click", function () {
+        navBar.classList.toggle("toggle");
+      });
+    </script>
+  </body>
+</html>
